@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750431395
+::res://::1751029386
 icon.svg::CompressedTexture2D/CompressedTexture2D::1461229299285009684::1750349097::1750349105::1::::<><><>0<>0<>ba4f86c3d1ad4ecaaf26c507e0fb0b4e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1750349292
 Antiacido.svg::CompressedTexture2D/CompressedTexture2D::8484356293470298614::1749053180::1750349292::1::::<><><>0<>0<>49197221ca6c38c5b4f0bb91b61266dc<>res://.godot/imported/Antiacido.svg-c88a965b060efc203328f1c2b4af5574.ctex::
@@ -13,3 +13,8 @@ Pizza.svg::CompressedTexture2D/CompressedTexture2D::7274041290986588247::1749053
 PizzaMal.svg::CompressedTexture2D/CompressedTexture2D::3646154004365869883::1749053228::1750349292::1::::<><><>0<>0<>dbd870082bc4b8e19892fa7532d9be8f<>res://.godot/imported/PizzaMal.svg-819629f48fa2f22beee74c533bfebe74.ctex::
 salad.svg::CompressedTexture2D/CompressedTexture2D::8590412544872379381::1749389986::1750349292::1::::<><><>0<>0<>c62f638fe95facb1053cd777f2e34c22<>res://.godot/imported/salad.svg-401982bfc4f12b929a4b676aa17b8447.ctex::
 title.svg::CompressedTexture2D/CompressedTexture2D::8934046956831386287::1749134715::1750349292::1::::<><><>0<>0<>434ae1594e599abe5d9eb8263882453f<>res://.godot/imported/title.svg-a6c0d9bd2a5c881820cf1ac927572d1b.ctex::
+::res://Scenes/::1750432121
+game.tscn::PackedScene::2953459523880106371::1750432121::0::1::::<><><>0<>0<><>::uid://b7t5e84qw1w12::::res://Scenes/player.tscn
+player.tscn::PackedScene::4673517289223183831::1750432121::0::1::::<><><>0<>0<><>::uid://2pvjtafoi6er::::res://Scripts/player.gd<>uid://bkevcxk6qctbk::::res://assets/GReady.svg
+::res://Scripts/::1750433385
+player.gd::GDScript::1927356571720899797::1750433385::0::1::::<>CharacterBody2D<><>0<>0<><>::
