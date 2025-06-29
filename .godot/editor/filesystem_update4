@@ -1,7 +1,7 @@
 res://Scenes/player.tscn
-res://Scripts/player.gd
 res://Scenes/game.tscn
 res://Components/health_component.tscn
 res://Components/attack_component.tscn
 res://Components/respawn_component.tscn
 res://Components/hitbox_component.tscn
+res://Scripts/player.gd
