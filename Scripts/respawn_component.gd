@@ -7,4 +7,5 @@ class_name Respawn
 
 
 func _on_food_timer_timeout() -> void:
-	pass # Replace with function body.
+	var food = good_food.instantiate()
+	add_child(food)

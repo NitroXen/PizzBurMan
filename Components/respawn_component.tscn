@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bg53aedutdx68"]
+[gd_scene load_steps=4 format=3 uid="uid://bg53aedutdx68"]
 
 [ext_resource type="Script" uid="uid://ccrks4s57klbr" path="res://Scripts/respawn_component.gd" id="1_0y0en"]
+[ext_resource type="PackedScene" uid="uid://dqofulghxmqn6" path="res://Scenes/food.tscn" id="2_q6k53"]
 
 [sub_resource type="Curve2D" id="Curve2D_q6k53"]
 _data = {
@@ -10,6 +11,7 @@ point_count = 5
 
 [node name="RespawnComponent" type="Node2D"]
 script = ExtResource("1_0y0en")
+good_food = ExtResource("2_q6k53")
 
 [node name="Path2D" type="Path2D" parent="."]
 curve = SubResource("Curve2D_q6k53")
@@ -19,6 +21,7 @@ position = Vector2(-1, 3)
 rotation = -0.00435537
 
 [node name="FoodTimer" type="Timer" parent="."]
-wait_time = 3.0
+wait_time = 2.0
+autostart = true
 
 [connection signal="timeout" from="FoodTimer" to="." method="_on_food_timer_timeout"]
