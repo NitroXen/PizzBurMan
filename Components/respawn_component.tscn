@@ -11,7 +11,7 @@ point_count = 5
 
 [node name="RespawnComponent" type="Node2D"]
 script = ExtResource("1_0y0en")
-good_food = ExtResource("2_q6k53")
+foods = Array[PackedScene]([ExtResource("2_q6k53"), null, null])
 
 [node name="Path2D" type="Path2D" parent="."]
 curve = SubResource("Curve2D_q6k53")

@@ -47,3 +47,14 @@ func _physics_process(delta: float) -> void:
 	#tween.tween_property(self, "position", position + velocity * 1.5 ,0.5)
 	#await tween.finished
 	
+
+
+func _on_body_entered(body: Node2D) -> void:
+	$AnimatedSprite2D.play("eating")
+	if body.has_method("food_eating"):
+		body.food_eating()
+	$AnimatedSprite2D.animation_finished.connect(eat_food.bind())
+
+func eat_food():
+	$AnimatedSprite2D.play("default")
+	
