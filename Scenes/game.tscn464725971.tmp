@@ -26,10 +26,5 @@ position = Vector2(565, 309)
 [node name="Label" type="Label" parent="."]
 offset_right = 261.0
 offset_bottom = 90.0
-text = "Puntos: 0000"
+text = "Puntos: "
 label_settings = SubResource("LabelSettings_3dryh")
-
-[node name="EatingTimer" type="Timer" parent="."]
-wait_time = 60.0
-
-[connection signal="timeout" from="EatingTimer" to="." method="_on_eating_timer_timeout"]

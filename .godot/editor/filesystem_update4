@@ -1,11 +1,11 @@
-res://Scenes/food.tscn
-res://Scripts/respawn_component.gd
-res://Scripts/food.gd
-res://Components/respawn_component.tscn
 res://Scenes/game.tscn
 res://Components/health_component.tscn
 res://Components/attack_component.tscn
-res://Components/hitbox_component.tscn
+res://Components/respawn_component.tscn
 res://Scenes/player.tscn
+res://Scenes/food.tscn
+res://Scripts/autoload.gd
 res://Scripts/game.gd
 res://Scripts/player.gd
+res://Scenes/menu.tscn
+res://Scripts/menu.gd

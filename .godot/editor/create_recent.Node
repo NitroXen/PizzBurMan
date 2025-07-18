@@ -1,10 +1,15 @@
+VBoxContainer
+HBoxContainer
+Button
+ColorRect
+Timer
+Label
+Node
 AnimationPlayer
 CollisionShape2D
 AnimatedSprite2D
 Sprite2D
 RigidBody2D
 Area2D
-Timer
 PathFollow2D
 Path2D
-CharacterBody2D

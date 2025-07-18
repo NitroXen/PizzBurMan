@@ -50,11 +50,16 @@ func _physics_process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
+	Autoload.puntuacion += Autoload.puntos_burger
 	$AnimatedSprite2D.play("eating")
 	if body.has_method("food_eating"):
 		body.food_eating()
-	$AnimatedSprite2D.animation_finished.connect(eat_food.bind())
-
-func eat_food():
-	$AnimatedSprite2D.play("default")
 	
+
+
+	
+	
+
+
+func _on_animated_sprite_2d_animation_finished() -> void:
+	$AnimatedSprite2D.play("default")
