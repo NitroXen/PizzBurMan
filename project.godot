@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="PizzBurMan"
+run/main_scene="uid://b7mvcmd17plcf"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 

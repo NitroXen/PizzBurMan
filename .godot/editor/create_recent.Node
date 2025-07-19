@@ -1,9 +1,9 @@
+Label
 VBoxContainer
-HBoxContainer
 Button
+HBoxContainer
 ColorRect
 Timer
-Label
 Node
 AnimationPlayer
 CollisionShape2D
@@ -12,4 +12,3 @@ Sprite2D
 RigidBody2D
 Area2D
 PathFollow2D
-Path2D
