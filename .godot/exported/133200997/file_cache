@@ -1,0 +1,11 @@
+res://Components/attack_component.tscn::d7256bc09c1a18ca6dec7fb0ea11711a::1752938644::res://.godot/exported/133200997/export-1855f23a033f877b01589baacc529994-attack_component.scn
+res://Components/health_component.tscn::d35fa612154b4b20bcbadc6382879b86::1752938644::res://.godot/exported/133200997/export-292df2e27548dc8ab57e0dcfd990df52-health_component.scn
+res://Components/hitbox_component.tscn::e5b3d5926e7ed0efc174d3fe9c145740::1751649488::res://.godot/exported/133200997/export-dee678f50094af2a36be425d4ec45cd8-hitbox_component.scn
+res://Components/respawn_component.tscn::1716dcd2c9e87ac7e0479a4a9a612b79::1781538704::res://.godot/exported/133200997/export-aaabfbd8900e3342157c5f66815929e0-respawn_component.scn
+res://Scenes/bad_food.tscn::624c9bb461e23f7a2b8dff7a4ef57e05::1781537458::res://.godot/exported/133200997/export-d3607e38c768fb6578711e177eb99d84-bad_food.scn
+res://Scenes/food.tscn::7d8c853a0ea41c627d3b21078d1df8d4::1781536337::res://.godot/exported/133200997/export-c1b7a4bd1fc6cac27777eee8555cba13-food.scn
+res://Scenes/game.tscn::e04fdf8aa410e6f0e6b3a495aeb090bb::1781536705::res://.godot/exported/133200997/export-d45e16ca8d170891778b9dcfa9c69e68-game.scn
+res://Scenes/game_over.tscn::df96f96d3c5f96bf2793816445e65297::1781537279::res://.godot/exported/133200997/export-33c320c97f44f546398d5119030678b4-game_over.scn
+res://Scenes/menu.tscn::811519b4e5ba93ccdd961362495ebaba::1781538474::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
+res://Scenes/player.tscn::0bf6bdf7aec738c140ee8abdf7131642::1781538335::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
+res://Scenes/salad.tscn::e8f17fa733960de9ab3dad0640df1d4e::1781538287::res://.godot/exported/133200997/export-ad229fa8524ea067d8bf6035ec37e28a-salad.scn
