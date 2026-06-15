@@ -5,7 +5,7 @@ class_name Respawn
 
 
 func _on_food_timer_timeout() -> void:
-	var type_food = foods[0]
+	var type_food = foods[randi()%3]
 	var food = type_food.instantiate()
 
 	# Choose a random location on Path2D.
@@ -25,6 +25,7 @@ func _on_food_timer_timeout() -> void:
 	# Choose the velocity for the mob.
 	var velocity = Vector2(randf_range(150.0, 250.0), 0.0)
 	food.linear_velocity = velocity.rotated(direction)
+
 
 	# Spawn the mob by adding it to the Main scene.
 	add_child(food)

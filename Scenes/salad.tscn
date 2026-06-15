@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://caj6qn4gu2a3v"]
+
+[ext_resource type="Script" uid="uid://bfb62y0v3v6ah" path="res://Scripts/salad.gd" id="1_j6l3p"]
+[ext_resource type="Texture2D" uid="uid://duni3srijrw3n" path="res://assets/salad.svg" id="1_kva3g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j6l3p"]
+radius = 68.26419
+
+[node name="Salad" type="RigidBody2D"]
+collision_layer = 2
+gravity_scale = 0.0
+script = ExtResource("1_j6l3p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_kva3g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_j6l3p")

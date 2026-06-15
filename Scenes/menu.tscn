@@ -64,7 +64,7 @@ offset_left = -40.0
 offset_top = -23.0
 grow_horizontal = 0
 grow_vertical = 0
-text = "Version: 0.8.0"
+text = "Version: MVP"
 label_settings = SubResource("LabelSettings_xhh6f")
 
 [connection signal="pressed" from="HBoxContainer/StartButton" to="." method="_on_start_button_pressed"]

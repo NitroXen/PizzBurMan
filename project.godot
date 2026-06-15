@@ -12,12 +12,16 @@ config_version=5
 
 config/name="PizzBurMan"
 run/main_scene="uid://b7mvcmd17plcf"
-config/features=PackedStringArray("4.4", "Mobile")
+config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Autoload="*res://Scripts/autoload.gd"
+
+[dotnet]
+
+project/assembly_name="PizzBurMan"
 
 [input]
 

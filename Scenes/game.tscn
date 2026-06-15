@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://bicxbufqv1og6"]
+[gd_scene load_steps=8 format=3 uid="uid://bicxbufqv1og6"]
 
 [ext_resource type="PackedScene" uid="uid://c0n7metfq4hyl" path="res://Scenes/player.tscn" id="1_ebmjs"]
 [ext_resource type="Texture2D" uid="uid://ceonep4ln00hp" path="res://assets/Campo.svg" id="1_qxrlw"]
@@ -9,6 +9,13 @@
 font_size = 32
 shadow_size = 10
 shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_i6g32"]
+font_size = 30
+font_color = Color(0.19076231, 0.19076234, 0.19076231, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wowpa"]
+font_size = 30
 
 [node name="Game" type="Node"]
 script = ExtResource("1_wowpa")
@@ -49,13 +56,15 @@ grow_vertical = 2
 size_flags_horizontal = 4
 text = "Flechas de control: Moverse
 Espacio: Dash"
+label_settings = SubResource("LabelSettings_i6g32")
 
 [node name="Timer" type="Label" parent="."]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -1.0
-offset_bottom = 23.0
+offset_left = -58.0
+offset_bottom = 59.0
 grow_horizontal = 0
+label_settings = SubResource("LabelSettings_wowpa")
 
 [connection signal="timeout" from="EatingTimer" to="." method="_on_eating_timer_timeout"]

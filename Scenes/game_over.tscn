@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://caolbyewo3dyn"]
+
+[ext_resource type="Script" uid="uid://ckg4w7qcbj4mf" path="res://Scripts/game_over.gd" id="1_ojehl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8fo1c"]
+paragraph_spacing = 1.0
+font_size = 40
+font_color = Color(0.16206557, 0.1620656, 0.16206557, 1)
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ojehl")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1149.0
+offset_bottom = 646.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -307.0
+offset_top = -132.0
+offset_right = 325.0
+offset_bottom = 105.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Game over
+Tu puntuacion es : "
+label_settings = SubResource("LabelSettings_8fo1c")
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Menu"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
