@@ -5,7 +5,7 @@ class_name Respawn
 
 
 func _on_food_timer_timeout() -> void:
-	var type_food = foods[randi()%3]
+	var type_food = foods[randi()%5]
 	var food = type_food.instantiate()
 
 	# Choose a random location on Path2D.
